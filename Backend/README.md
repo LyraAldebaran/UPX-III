@@ -1,0 +1,2 @@
+## Backend
+Essa pasta contém os arquivos necessários para o funcionamento do backend do projeto, incluindo APIs, logica de négocios, comunicação com o banco de dados, autenticação de usuários, entre outros.
