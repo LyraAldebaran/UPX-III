@@ -116,3 +116,21 @@
             font-size: 1.5em;
             margin-top: 30px;
         }
+
+        #footer{
+            background-color: #987B00;
+        }
+        
+        #footer p{
+            color: white;
+            font-size: 0.7em;
+            font-family: museoModerno, sans-serif;
+            padding: 20px;
+        }
+
+        #footer h2{
+            color: white;
+            font-family: museoModerno, sans-serif;
+            padding: 20px;
+            font-size: 1.5em;
+        }
