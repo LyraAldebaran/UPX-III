@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Solare</title>
+    <link rel="stylesheet" href="./css/cad_login.css">
+    <link rel="stylesheet" href="./css/header_footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+</head>
+  <body>
+
+    <div class="container-fluid">
+        <div class="row align-items-center" id="header">
+            <div class="col-12 d-flex justify-content-center"><a href="./index.html"><img id="logo" src="./img/solare_junto 1.svg" alt=""></a></div>
+        </div>
+        <div class="row d-flex justify-content-center align-items-center" id="content">
+            <div class="col-2" id="logo-form" style="background-color: #36320A; height: 60vh;">
+                <img src="./img/logozinha.svg" alt="">
+                <div class="text">
+                    <h3>Seja bem vindo!</h3>
+                    <p>Acesse sua conta agora mesmo e comece a economizar!</p>
+                    <p>não possui conta? <a href="./cadastro.html">Cadastrar</a></p>
+                        <a href="" style="color: white; font-weight: bold; font-size: 1.2em; text-decoration: none; margin: 0;">Esqueci minha senha</a>
+                </div>
+            </div>
+            <div class="col-4 formulario" style="background-color: #FEFAA1; height: 60vh;">
+                
+                <form action="./dashboard.html" method="get">
+                        <div class="campo">
+                            <img src="./img/ant-design_user-add-outlined.svg" alt="">
+                            <input type="text" placeholder="Username" class="form-control" id="username" name="username"  required>
+                        </div>
+                        <div class="campo">
+                            <img src="./img/ri_lock-password-fill.svg" alt="">
+                            <input type="password" placeholder="Senha" class="form-control" id="password" name="password" required>
+                        </div>
+                    <button type="submit" class="btn btn-primary">Entrar</button>
+                </form>
+
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-evenly" id="footer">
+            <div class="col-3 d-flex flex-column justify-content-center">
+                <p>Plataforma digital desenvolvida para conectar produtores e consumidores de energia por meio de cooperativas, promovendo economia, eficiência e sustentabilidade. Nosso sistema permite o compartilhamento de créditos energéticos de forma simples, segura e acessível.</p>
+                <p>Ao participar, os usuários concordam com os termos de uso e políticas da plataforma. A adesão às cooperativas está sujeita à disponibilidade e à cobrança de mensalidade definida pelo fundador.</p>
+            </div>
+            <div class="col-3 d-flex flex-column justify-content-center">
+                <h2 style="text-align: center;">© 2026 — Todos os direitos reservados.</h2>
+                <p style="text-align: center;">*Este sistema é um protótipo desenvolvido para fins acadêmicos, podendo não representar uma versão final comercial.*</p>
+            </div>
+            <div class="col-3 d-flex flex-column justify-content-center">
+                <p style="font-size: 1.2em;">Contato<br><strong>Telefone:</strong> (00) 00000-0000<br><strong>E-mail:</strong> contato@seudominio.com</p>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="./js/cad-login.js"></script>
+  </body>
+</html>

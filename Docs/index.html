@@ -1,504 +1,72 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#073b43">
-  <meta name="description" content="Solare — plataforma acadêmica de conexão entre produtores e consumidores de energia solar por meio de cooperativas e créditos energéticos.">
-  <title>Solare | Energia compartilhada, economia acessível</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Orbitron:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" href="assets/imagens/simbolo-solare.png">
-  <link rel="stylesheet" href="style.css">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Solare</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/header_footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
 </head>
-<body>
-  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <body>
 
-  <header class="header" id="topo">
-    <div class="container nav-container">
-      <a class="brand" href="#inicio" aria-label="Solare - ir para o início">
-        <img class="brand-logo" src="assets/imagens/logotipo-solare.svg" alt="Solare">
-      </a>
-      <button class="menu-button" id="menuButton" aria-expanded="false" aria-controls="mainNav" aria-label="Abrir menu">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="nav" id="mainNav" aria-label="Navegação principal">
-        <a href="#problema">Problema</a>
-        <a href="#solucao">Solução</a>
-        <a href="#funcionalidades">Funcionalidades</a>
-        <a href="#prototipo">Protótipo</a>
-        <a href="#equipe">Equipe</a>
-        <a class="nav-cta" href="#demonstracao">Ver demonstração</a>
-      </nav>
-    </div>
-  </header>
-
-  <main id="conteudo">
-    <!-- 1. MAIN SECTION -->
-    <section class="hero" id="inicio">
-      <div class="hero-glow glow-one"></div>
-      <div class="hero-glow glow-two"></div>
-      <div class="container hero-grid">
-        <div class="hero-content reveal">
-          <div class="hero-lockup" aria-label="Solare — União, Estratégia e Economia">
-            <img src="assets/imagens/simbolo-solare.png" alt="" aria-hidden="true">
-            <div>
-              <strong>SOLARE</strong>
-              <small>União, Estratégia e Economia</small>
+    <div class="container-fluid">
+        <div class="row align-items-center" id="header">
+            <div class="col"></div>
+            <div class="col-8 d-flex justify-content-center"><img id="logo" src="./img/logotipo-solare.svg" alt=""></div>
+            <div ID="botoes" class="col d-flex align-items-center">
+                <a style="text-decoration: none; color: white;" href="./login.html"><button class="btn-cad">Entrar</button></a>
+                <a style="text-decoration: none; color: white;" href="./cadastro.html"><button class="btn-cad">Cadastrar</button></a>
             </div>
-          </div>
-          <span class="eyebrow">Projeto acadêmico • Grupo Helios • 2026.2</span>
-          <h1>Energia solar que se transforma em <span>economia compartilhada.</span></h1>
-          <p class="hero-description">
-            A <strong>Solare</strong> conecta produtores e consumidores de energia solar por meio de cooperativas,
-            facilitando o compartilhamento de créditos energéticos com transparência, praticidade e impacto sustentável.
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#demonstracao">Ver demonstração</a>
-            <a class="button ghost" href="#prototipo">Acessar protótipo</a>
-          </div>
-          <div class="hero-trust" aria-label="Objetivos do projeto">
-            <div><strong>Economia</strong><small>Redução de custos</small></div>
-            <div><strong>Conexão</strong><small>Produtores e consumidores</small></div>
-            <div><strong>ODS 7</strong><small>Energia limpa</small></div>
-          </div>
         </div>
-
-        <div class="app-preview reveal">
-          <div class="preview-badge">Dashboard do protótipo</div>
-          <div class="browser-frame">
-            <div class="browser-top"><i></i><i></i><i></i><span>solare.app/dashboard</span></div>
-            <img src="assets/imagens/prototipo-dashboard.webp" alt="Tela do protótipo Solare mostrando dashboard de consumo, economia e impacto ambiental.">
-          </div>
-          <div class="floating-card saving">
-            <span class="icon-pill">↘</span>
-            <div><strong>Economia visível</strong><small>Acompanhamento mensal</small></div>
-          </div>
-          <div class="floating-card clean">
-            <span class="icon-pill">☀</span>
-            <div><strong>Energia limpa</strong><small>Impacto monitorado</small></div>
-          </div>
+        <div class="row d-flex justify-content-center align-items-center" id="content1">
+            <div class="col-3 d-flex justify-content-center"><img src="./img/logozinha.svg" alt=""></div>
+            <div class="col-3 d-flex flex-column justify-content-evenly align-items-start" style="height: 25vh">
+                <img src="./img/SOLARE.svg" alt="">
+                <img src="./img/União, Estratégia e Economia.svg" alt="">
+                <a style="text-decoration: none;" href="./cadastro.html"><button id="btn-economize">Comece a economizar</button></a>
+            </div>
         </div>
-      </div>
-    </section>
-
-    <section class="context-numbers" aria-label="Indicadores de contexto">
-      <div class="container numbers-grid reveal">
-        <article>
-          <strong data-counter="4372634">4.372.634</strong>
-          <p>sistemas de geração distribuída solar no Brasil*</p>
-        </article>
-        <article>
-          <strong>9</strong>
-          <p>requisitos funcionais previstos no sistema</p>
-        </article>
-        <article>
-          <strong>3</strong>
-          <p>perfis beneficiados: produtores, cooperativas e consumidores</p>
-        </article>
-        <article>
-          <strong>ODS 7</strong>
-          <p>energia limpa e acessível para todos</p>
-        </article>
-      </div>
-      <p class="source-note container">* Dado da ABSOLAR atualizado em 13/05/2026.</p>
-    </section>
-
-    <!-- 2. PROBLEMA -->
-    <section class="section problem" id="problema">
-      <div class="container">
-        <div class="section-heading reveal">
-          <span class="eyebrow">02 • Problema</span>
-          <h2>Energia disponível, mas acesso e aproveitamento ainda limitados</h2>
-          <p>
-            A geração solar distribuída cresce no Brasil, porém nem todos conseguem investir em painéis solares.
-            Ao mesmo tempo, produtores precisam de meios digitais claros para organizar cooperativas,
-            administrar créditos e demonstrar economia aos participantes.
-          </p>
+        <div class="row d-flex justify-content-evenly" id="content2">
+            <div class="col-2">         
+                <div class="img"><img src="./img/placa_usina.png" alt=""></div>
+                <div class="text"><p>Grandes produtores utilizam a plataforma para distribuir o excedente de energia que não seria utilizado, transformando isso em uma nova fonte de receita. Além disso, podem criar e administrar cooperativas, recebendo mensalidades dos participantes e garantindo uma renda recorrente e escalável.</p></div>
+            </div>
+            <div class="col-2">
+                <div class="img"><img src="./img/placa_casa.png" alt=""></div>
+                <div class="text"><p>Pequenos produtores, como residências com energia solar, conseguem aproveitar melhor os créditos que sobram da sua geração. Em vez de perder esse excedente, podem compartilhá-lo dentro da cooperativa, gerando retorno financeiro e acelerando o payback do investimento.</p></div>
+            </div>
+            <div class="col-2">
+                <div class="img"><img src="./img/consumidor_conta.png" alt=""></div>
+                <div class="text"><p>Consumidores comuns, que não possuem placas solares, podem participar das cooperativas pagando uma mensalidade ao fundador e, em troca, recebem créditos que reduzem o valor da conta de luz. Tudo isso sem precisar investir em instalação ou manutenção, tornando a economia acessível e prática.</p></div>
+            </div>
         </div>
-
-        <div class="problem-layout">
-          <article class="impact-card reveal">
-            <span class="card-label">Contexto real</span>
-            <h3>Mais de 4,37 milhões de sistemas de geração distribuída</h3>
-            <p>
-              O avanço da energia solar evidencia uma oportunidade: aproximar quem gera energia de quem deseja
-              economizar sem instalar painéis próprios.
-            </p>
-            <a class="inline-link" href="https://www.absolar.org.br/" target="_blank" rel="noopener">Fonte: ABSOLAR, 13/05/2026 ↗</a>
-          </article>
-
-          <div class="pain-grid">
-            <article class="pain-card reveal">
-              <div class="pain-icon">⌂</div>
-              <h3>Consumidor sem placas</h3>
-              <p>Não dispõe de investimento inicial ou estrutura para produzir energia solar em sua residência.</p>
-            </article>
-            <article class="pain-card reveal">
-              <div class="pain-icon">☀</div>
-              <h3>Produtor com créditos</h3>
-              <p>Precisa aproveitar e administrar créditos excedentes com mais transparência e alcance.</p>
-            </article>
-            <article class="pain-card reveal">
-              <div class="pain-icon">↔</div>
-              <h3>Gestão complexa</h3>
-              <p>Participação, cobrança e acompanhamento de consumo precisam estar organizados em um único ambiente.</p>
-            </article>
-            <article class="pain-card reveal">
-              <div class="pain-icon">◔</div>
-              <h3>Baixa visibilidade</h3>
-              <p>Sem dashboards, o usuário tem dificuldade de perceber economia, consumo e impacto ambiental.</p>
-            </article>
-          </div>
+        <div class="row d-flex justify-content-evenly" id="footer">
+            <div class="col-3 d-flex flex-column justify-content-center">
+                <p>Plataforma digital desenvolvida para conectar produtores e consumidores de energia por meio de cooperativas, promovendo economia, eficiência e sustentabilidade. Nosso sistema permite o compartilhamento de créditos energéticos de forma simples, segura e acessível.</p>
+                <p>Ao participar, os usuários concordam com os termos de uso e políticas da plataforma. A adesão às cooperativas está sujeita à disponibilidade e à cobrança de mensalidade definida pelo fundador.</p>
+            </div>
+            <div class="col-3 d-flex flex-column justify-content-center">
+                <h2 style="text-align: center;">© 2026 — Todos os direitos reservados.</h2>
+                <p style="text-align: center;">*Este sistema é um protótipo desenvolvido para fins acadêmicos, podendo não representar uma versão final comercial.*</p>
+            </div>
+            <div class="col-3 d-flex flex-column justify-content-center">
+                <p style="font-size: 1.2em;">Contato<br><strong>Telefone:</strong> (00) 00000-0000<br><strong>E-mail:</strong> contato@seudominio.com</p>
+            </div>
         </div>
-      </div>
-    </section>
-
-    <!-- 3. SOLUÇÃO PROPOSTA -->
-    <section class="section solution" id="solucao">
-      <div class="container solution-grid">
-        <div class="solution-content reveal">
-          <span class="eyebrow">03 • Solução proposta</span>
-          <h2>Uma plataforma para compartilhar energia com clareza e controle</h2>
-          <p>
-            A Solare organiza a jornada entre produtor e consumidor: cadastro, escolha de cooperativas,
-            vínculo do participante, cobrança mensal e acompanhamento por dashboards.
-          </p>
-          <ul class="benefits">
-            <li><strong>Proposta de valor:</strong> democratizar o acesso à economia gerada pela energia solar.</li>
-            <li><strong>Diferencial:</strong> conectar cooperativas, créditos e indicadores em uma interface única.</li>
-            <li><strong>Benefício:</strong> apoiar decisões com visualização de consumo, economia e sustentabilidade.</li>
-          </ul>
-        </div>
-        <div class="journey-card reveal" aria-label="Fluxo resumido da solução">
-          <div class="journey-header"><span>Fluxo principal</span><strong>Solare</strong></div>
-          <div class="journey-item"><span class="number">01</span><div><strong>Produtor cadastra a cooperativa</strong><small>Oferta organizada de créditos energéticos</small></div></div>
-          <div class="journey-line"></div>
-          <div class="journey-item"><span class="number">02</span><div><strong>Consumidor escolhe e participa</strong><small>Adesão prática e centralizada</small></div></div>
-          <div class="journey-line"></div>
-          <div class="journey-item"><span class="number">03</span><div><strong>Sistema acompanha resultados</strong><small>Economia, consumo e impacto visualizados</small></div></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 4. FUNCIONALIDADES -->
-    <section class="section features" id="funcionalidades">
-      <div class="container">
-        <div class="section-heading center reveal">
-          <span class="eyebrow">04 • Funcionalidades</span>
-          <h2>Recursos previstos para o MVP</h2>
-          <p>Funcionalidades alinhadas aos requisitos funcionais definidos pela equipe.</p>
-        </div>
-        <div class="features-grid">
-          <article class="feature reveal"><span>01</span><div class="feature-icon">♙</div><h3>Cadastro de usuário</h3><p>Criação de conta para produtores e consumidores iniciarem sua jornada.</p><small>Benefício: acesso personalizado</small></article>
-          <article class="feature reveal"><span>02</span><div class="feature-icon">◉</div><h3>Cadastro de cooperativa</h3><p>Produtores publicam cooperativas disponíveis para participação.</p><small>Benefício: ampliar alcance</small></article>
-          <article class="feature reveal"><span>03</span><div class="feature-icon">⌕</div><h3>Busca e adesão</h3><p>Consumidores visualizam cooperativas e solicitam participação.</p><small>Benefício: adesão simplificada</small></article>
-          <article class="feature reveal"><span>04</span><div class="feature-icon">$</div><h3>Cobrança mensal</h3><p>Registro organizado da mensalidade dos participantes ativos.</p><small>Benefício: controle financeiro</small></article>
-          <article class="feature reveal"><span>05</span><div class="feature-icon">▥</div><h3>Dashboard consumidor</h3><p>Acompanhamento de consumo e créditos recebidos em visualizações objetivas.</p><small>Benefício: transparência</small></article>
-          <article class="feature reveal"><span>06</span><div class="feature-icon">↗</div><h3>Dashboard produtor</h3><p>Monitoramento de geração, distribuição e aproveitamento da energia.</p><small>Benefício: gestão eficiente</small></article>
-          <article class="feature reveal"><span>07</span><div class="feature-icon">✓</div><h3>Validação documental</h3><p>Possibilidade de verificação de identidade e documentos dos usuários.</p><small>Benefício: confiança</small></article>
-          <article class="feature reveal"><span>08</span><div class="feature-icon">♧</div><h3>Impacto ambiental</h3><p>Indicadores visuais conectam economia e benefícios sustentáveis.</p><small>Benefício: consciência energética</small></article>
-        </div>
-      </div>
-    </section>
-
-    <!-- 5. TECNOLOGIAS UTILIZADAS -->
-    <section class="section technologies" id="tecnologias">
-      <div class="container">
-        <div class="section-heading center reveal">
-          <span class="eyebrow">05 • Tecnologias utilizadas</span>
-          <h2>Stack planejada e ferramentas de criação</h2>
-        </div>
-        <div class="tech-grid reveal">
-          <article><strong>Java 21</strong><span>Backend da plataforma</span></article>
-          <article><strong>Spring Boot</strong><span>Serviços e regras de negócio</span></article>
-          <article><strong>SQL Server 2022</strong><span>Persistência de dados</span></article>
-          <article><strong>HTML5</strong><span>Estrutura da landing page</span></article>
-          <article><strong>CSS3</strong><span>Interface responsiva</span></article>
-          <article><strong>JavaScript</strong><span>Interatividade da página</span></article>
-          <article><strong>Figma</strong><span>Prototipação visual</span></article>
-          <article><strong>GitHub Pages</strong><span>Publicação da landing page</span></article>
-        </div>
-      </div>
-    </section>
-
-    <!-- 6. ARQUITETURA -->
-    <section class="section architecture" id="arquitetura">
-      <div class="container">
-        <div class="section-heading reveal">
-          <span class="eyebrow">06 • Arquitetura da solução</span>
-          <h2>Componentes conectados para uma experiência segura</h2>
-          <p>Arquitetura em camadas sugerida a partir das tecnologias documentadas para o sistema.</p>
-        </div>
-        <div class="architecture-box reveal">
-          <div class="architecture-node users"><strong>Usuários</strong><small>Produtor • Consumidor</small></div>
-          <div class="architecture-arrow">→</div>
-          <div class="architecture-node interface"><strong>Interface Web</strong><small>HTML • CSS • JavaScript</small></div>
-          <div class="architecture-arrow">→</div>
-          <div class="architecture-node api"><strong>API / Backend</strong><small>Java 21 • Spring Boot</small></div>
-          <div class="architecture-arrow">→</div>
-          <div class="architecture-node data"><strong>Banco de Dados</strong><small>SQL Server 2022</small></div>
-          <div class="architecture-node extra"><strong>Validação</strong><small>Documentos e autenticação</small></div>
-        </div>
-        <div class="architecture-details reveal">
-          <p><strong>Fluxo:</strong> o usuário acessa a interface, autentica-se, consulta ou administra cooperativas e os dados são tratados pelo backend e armazenados de forma estruturada.</p>
-          <p><strong>Segurança planejada:</strong> autenticação, autorização e proteção de dados sensíveis nas funcionalidades restritas.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- 7. UX/UI E PROTÓTIPOS -->
-    <section class="section prototype" id="prototipo">
-      <div class="container">
-        <div class="section-heading center reveal">
-          <span class="eyebrow">07 • UX/UI e protótipo</span>
-          <h2>Telas criadas no Figma</h2>
-          <p>A identidade visual utiliza azul-petróleo e amarelo solar para comunicar tecnologia, confiança e energia.</p>
-        </div>
-        <div class="gallery">
-          <button class="gallery-card large reveal" data-image="assets/imagens/prototipo-home.webp" data-title="Landing inicial do protótipo">
-            <img src="assets/imagens/prototipo-home.webp" alt="Página inicial do protótipo Solare.">
-            <span>Início</span>
-          </button>
-          <button class="gallery-card reveal" data-image="assets/imagens/prototipo-login.webp" data-title="Tela de login">
-            <img src="assets/imagens/prototipo-login.webp" alt="Tela de login do protótipo Solare.">
-            <span>Login</span>
-          </button>
-          <button class="gallery-card reveal" data-image="assets/imagens/prototipo-cadastro.webp" data-title="Tela de cadastro">
-            <img src="assets/imagens/prototipo-cadastro.webp" alt="Tela de cadastro do protótipo Solare.">
-            <span>Cadastro</span>
-          </button>
-          <button class="gallery-card reveal" data-image="assets/imagens/prototipo-dashboard.webp" data-title="Dashboard de economia">
-            <img src="assets/imagens/prototipo-dashboard.webp" alt="Dashboard de consumo e economia do protótipo Solare.">
-            <span>Dashboard</span>
-          </button>
-          <button class="gallery-card reveal" data-image="assets/imagens/prototipo-cooperativas.webp" data-title="Tela de cooperativas">
-            <img src="assets/imagens/prototipo-cooperativas.webp" alt="Tela de cooperativas do protótipo Solare.">
-            <span>Cooperativas</span>
-          </button>
-        </div>
-      </div>
-    </section>
-
-    <!-- 8. PÚBLICO-ALVO E PERSONAS -->
-    <section class="section audience" id="publico">
-      <div class="container">
-        <div class="section-heading center reveal">
-          <span class="eyebrow">08 • Público-alvo e personas</span>
-          <h2>Quem se beneficia da Solare</h2>
-          <p>Perfis identificados no projeto para uso em cidades brasileiras com disponibilidade de energia solar.</p>
-        </div>
-        <div class="audience-grid">
-          <article class="persona reveal">
-            <span class="persona-tag">Produtor</span>
-            <h3>Gestor de geração solar</h3>
-            <p>Busca administrar cooperativas, distribuir créditos e ampliar a rentabilidade da geração.</p>
-            <ul><li>Precisa de gestão centralizada</li><li>Deseja acompanhar distribuição</li></ul>
-          </article>
-          <article class="persona reveal">
-            <span class="persona-tag">Residencial</span>
-            <h3>Pequeno produtor</h3>
-            <p>Possui painéis solares e quer aproveitar melhor os créditos excedentes da própria geração.</p>
-            <ul><li>Busca acelerar retorno</li><li>Valoriza simplicidade</li></ul>
-          </article>
-          <article class="persona reveal">
-            <span class="persona-tag">Consumidor</span>
-            <h3>Usuário sem painéis</h3>
-            <p>Deseja reduzir gastos com energia sem realizar instalação ou manutenção de placas solares.</p>
-            <ul><li>Quer economia acessível</li><li>Precisa de transparência</li></ul>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- 9. RESULTADOS ESPERADOS -->
-    <section class="section expected" id="resultados">
-      <div class="container expected-grid">
-        <div class="expected-content reveal">
-          <span class="eyebrow">09 • Resultados esperados</span>
-          <h2>Impacto mensurável para a experiência do usuário</h2>
-          <p>
-            O projeto define metas de usabilidade, desempenho e confiabilidade que deverão orientar os testes e a evolução da solução.
-          </p>
-          <p class="notice">Indicadores abaixo são <strong>metas previstas</strong> no documento do projeto, e não resultados já medidos.</p>
-        </div>
-        <div class="goals-grid">
-          <article class="goal reveal"><strong>≤ 3</strong><span>cliques nas ações principais</span><small>Meta de usabilidade</small></article>
-          <article class="goal reveal"><strong>&lt; 2s</strong><span>resposta nas operações principais</span><small>Meta de desempenho</small></article>
-          <article class="goal reveal"><strong>≥ 95%</strong><span>disponibilidade operacional</span><small>Meta de confiabilidade</small></article>
-          <article class="goal reveal"><strong>+ Clareza</strong><span>economia e consumo visualizados</span><small>Benefício esperado</small></article>
-        </div>
-      </div>
-    </section>
-
-    <!-- 10. ODS -->
-    <section class="section ods" id="ods">
-      <div class="container ods-grid">
-        <div class="ods-number reveal"><span>ODS</span><strong>7</strong></div>
-        <div class="ods-text reveal">
-          <span class="eyebrow">10 • ODS relacionado</span>
-          <h2>Energia limpa e acessível</h2>
-          <p>
-            O Solare está alinhado ao ODS 7 ao propor uma plataforma digital que favorece o acesso a fontes de energia renovável,
-            aproxima produtores e consumidores e estimula o uso consciente da energia solar.
-          </p>
-          <a class="inline-link light" href="https://brasil.un.org/pt-br/sdgs/7" target="_blank" rel="noopener">Conheça o ODS 7 na ONU Brasil ↗</a>
-        </div>
-      </div>
-    </section>
-
-    <!-- 11. EQUIPE -->
-    <section class="section team" id="equipe">
-      <div class="container">
-        <div class="section-heading center reveal">
-          <span class="eyebrow">11 • Equipe</span>
-          <h2>Grupo Helios</h2>
-          <p>Equipe responsável pelo projeto Solare — versão 2.3.</p>
-        </div>
-        <div class="team-grid">
-          <article class="member reveal"><div class="avatar">AM</div><h3>Arthur Marcolino</h3><p>Developer Backend</p><small>RA 252369</small></article>
-          <article class="member reveal"><div class="avatar">ES</div><h3>Emelly Souza Oliveira</h3><p>Scrum Master</p><small>RA 252220</small></article>
-          <article class="member reveal"><div class="avatar">FT</div><h3>Felipe Matheus Vieira Tota</h3><p>Product Owner</p><small>RA 251964</small></article>
-          <article class="member reveal"><div class="avatar">RE</div><h3>Rhyan Ely Silva e Costa</h3><p>Developer Frontend</p><small>RA 251819</small></article>
-        </div>
-        <p class="team-advisor reveal">Orientador: <strong>Daniel Ohata</strong></p>
-      </div>
-    </section>
-
-    <!-- 12. DEMONSTRAÇÃO -->
-    <section class="section demonstration" id="demonstracao">
-      <div class="container demo-grid">
-        <div class="demo-copy reveal">
-          <span class="eyebrow">12 • Demonstração</span>
-          <h2>Walkthrough do protótipo</h2>
-          <p>Explore as principais telas planejadas para a jornada do usuário no sistema.</p>
-          <div class="demo-tabs" role="tablist" aria-label="Telas da demonstração">
-            <button class="demo-tab active" role="tab" aria-selected="true" data-screen="assets/imagens/prototipo-home.webp" data-caption="Conheça a proposta e inicie a economia com energia compartilhada.">Início</button>
-            <button class="demo-tab" role="tab" aria-selected="false" data-screen="assets/imagens/prototipo-cadastro.webp" data-caption="Cadastre-se e envie as informações necessárias para participar.">Cadastro</button>
-            <button class="demo-tab" role="tab" aria-selected="false" data-screen="assets/imagens/prototipo-cooperativas.webp" data-caption="Consulte cooperativas disponíveis na sua região.">Cooperativas</button>
-            <button class="demo-tab" role="tab" aria-selected="false" data-screen="assets/imagens/prototipo-dashboard.webp" data-caption="Acompanhe consumo, economia e impacto ambiental.">Dashboard</button>
-          </div>
-          <p class="demo-caption" id="demoCaption">Conheça a proposta e inicie a economia com energia compartilhada.</p>
-        </div>
-        <div class="demo-screen reveal">
-          <img id="demoImage" src="assets/imagens/prototipo-home.webp" alt="Tela selecionada na demonstração do protótipo Solare.">
-        </div>
-      </div>
-      <div class="container video-showcase reveal">
-        <div class="video-copy">
-          <span class="eyebrow">Vídeo pitch</span>
-          <h3>Veja a apresentação do projeto Solare</h3>
-          <p>Assista ao vídeo demonstrativo da solução e conheça a proposta da plataforma.</p>
-          <a class="button primary" href="https://youtu.be/hnmsKJudiMI" target="_blank" rel="noopener">Assistir no YouTube ↗</a>
-        </div>
-        <div class="video-frame">
-          <iframe
-            src="https://www.youtube-nocookie.com/embed/hnmsKJudiMI"
-            title="Vídeo Pitch Solare"
-            loading="lazy"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen></iframe>
-        </div>
-      </div>
-    </section>
-
-    <!-- 13. DOCUMENTAÇÃO -->
-    <section class="section documents" id="documentacao">
-      <div class="container">
-        <div class="section-heading center reveal">
-          <span class="eyebrow">13 • Documentação</span>
-          <h2>Materiais do projeto</h2>
-          <p>Arquivos disponíveis e espaços preparados para os links oficiais da equipe.</p>
-        </div>
-        <div class="docs-grid">
-          <a class="document-card reveal" href="assets/docs/Documentacao_Solare.docx" download>
-            <span class="document-icon">DOC</span>
-            <div><h3>Documentação do Projeto</h3><p>Requisitos e planejamento — versão 2.3</p></div>
-            <strong>Baixar ↓</strong>
-          </a>
-          <a class="document-card reveal" href="assets/docs/Prototipo_Solare.pdf" target="_blank" rel="noopener">
-            <span class="document-icon">PDF</span>
-            <div><h3>Protótipo Visual</h3><p>Telas de referência desenvolvidas no Figma</p></div>
-            <strong>Abrir ↗</strong>
-          </a>
-          <a class="document-card reveal" href="https://github.com/LyraAldebaran/UPX-III" target="_blank" rel="noopener">
-            <span class="document-icon">GH</span>
-            <div><h3>GitHub — LyraAldebaran/UPX-III</h3><p>Repositório oficial do Projeto UPX</p></div>
-            <strong>Abrir ↗</strong>
-          </a>
-          <a class="document-card reveal" href="https://youtu.be/hnmsKJudiMI" target="_blank" rel="noopener">
-            <span class="document-icon">▶</span>
-            <div><h3>Vídeo Pitch Solare</h3><p>Apresentação do projeto no YouTube</p></div>
-            <strong>Assistir ↗</strong>
-          </a>
-          <div class="document-card pending reveal" title="Insira o endereço oficial do Trello para habilitar este acesso">
-            <span class="document-icon">TR</span>
-            <div><h3>Helios Tech — Solare</h3><p>Quadro do projeto • URL não informada</p></div>
-            <strong>Pendente</strong>
-          </div>
-          <div class="document-card pending reveal" title="Insira o endereço oficial do Google Drive para habilitar este acesso">
-            <span class="document-icon">GD</span>
-            <div><h3>UPX III — Google Drive</h3><p>Pasta compartilhada • URL não informada</p></div>
-            <strong>Pendente</strong>
-          </div>
-        </div>
-        <div class="access-card reveal">
-          <div>
-            <h3>Compartilhe a landing page</h3>
-            <p>Após publicar no GitHub Pages, este QR Code direcionará ao endereço online da página.</p>
-            <button class="button ghost compact" id="copyLink">Copiar link da página</button>
-          </div>
-          <img id="qrCode" alt="QR Code de acesso à landing page Solare.">
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- 14. RODAPÉ -->
-  <footer class="footer">
-    <div class="container footer-grid">
-      <div>
-        <a class="brand footer-brand footer-wordmark" href="#topo" aria-label="Solare - voltar ao topo">
-          <img src="assets/imagens/simbolo-solare.png" alt="" aria-hidden="true">
-          <span class="brand-name">SOLARE</span>
-        </a>
-        <p>União, Estratégia e Economia.</p>
-        <p class="footer-note">Protótipo desenvolvido para fins acadêmicos.</p>
-      </div>
-      <div>
-        <h3>Projeto</h3>
-        <a href="#problema">Problema</a>
-        <a href="#funcionalidades">Funcionalidades</a>
-        <a href="#prototipo">UX/UI</a>
-        <a href="#documentacao">Documentação</a>
-      </div>
-      <div>
-        <h3>Informações</h3>
-        <p>Grupo Helios</p>
-        <p>UPX III • 2026.2</p>
-        <p>Orientador: Daniel Ohata</p>
-        <p class="placeholder">Instituição e contato: inserir antes da publicação</p>
-      </div>
-      <div>
-        <h3>Fontes</h3>
-        <a href="https://www.absolar.org.br/" target="_blank" rel="noopener">ABSOLAR — dados solares ↗</a>
-        <a href="https://brasil.un.org/pt-br/sdgs/7" target="_blank" rel="noopener">ONU Brasil — ODS 7 ↗</a>
-        <a href="https://github.com/LyraAldebaran/UPX-III" target="_blank" rel="noopener">GitHub — Projeto UPX ↗</a>
-        <a href="https://youtu.be/hnmsKJudiMI" target="_blank" rel="noopener">YouTube — Vídeo Pitch ↗</a>
-        <p>Documentação Solare v2.3</p>
-      </div>
     </div>
-    <div class="container copyright">© 2026 Solare • Grupo Helios. Todos os direitos reservados.</div>
-  </footer>
 
-  <dialog class="image-modal" id="imageModal">
-    <button class="modal-close" id="closeModal" aria-label="Fechar visualização">×</button>
-    <img id="modalImage" alt="Tela ampliada do protótipo Solare.">
-    <p id="modalTitle"></p>
-  </dialog>
 
-  <script src="script.js"></script>
-</body>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
 </html>
