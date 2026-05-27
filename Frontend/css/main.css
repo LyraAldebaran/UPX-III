@@ -1,0 +1,51 @@
+
+        #botoes{
+            justify-content: space-evenly;
+        }
+
+        .btn-cad{
+            font-family: museoModerno, sans-serif;
+            padding: 0;
+            font-size: 1.3em;
+            background-color: #A78700;
+            color: white;
+            border: none;
+            padding: 5px 20px;
+            border-radius: 5px;
+            box-shadow: 
+                0px 1px 5px 0px rgba(0, 0, 0, 0.7),
+                0px 4px 9px 0px rgba(0, 0, 0, 0.4),
+                0px 6px 14px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        #btn-economize{
+            background-color: rgba(131, 112, 4, 0.5);
+            font-family: museoModerno, sans-serif;
+            border-radius: 5px;
+            border: 1px solid white;
+            padding: 3px;
+            color: white;
+        }
+
+        #logo{
+            height: 90%;
+            max-width: 200px;
+        }
+
+        #content1{
+            padding-top: 7vh;
+            height: 50vh;
+            background-image: url('../img/pexels-quang-nguyen-vinh-222549-35105443\ 1.png');
+            background-color: rgba(0, 0, 0, 0.7);
+            background-blend-mode: multiply;
+            background-size: cover;
+        }
+
+        #content2{
+            background-color: #00373F;
+        }
+
+        .col-2 img{
+            padding-top: 20px;
+            width: 100%;
+        }
