@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Solare</title>
-    <link rel="stylesheet" href="./css/cad_login.css">
     <link rel="stylesheet" href="./css/header_footer.css">
+    <link rel="stylesheet" href="./css/dashboard.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,35 +16,31 @@
 
     <div class="container-fluid">
         <div class="row align-items-center" id="header">
-            <div class="col-12 d-flex justify-content-center"><a href="./index.html"><img id="logo" src="./img/solare_junto 1.svg" alt=""></a></div>
+            <div class="col"></div>
+            <div class="col-8 d-flex justify-content-center"><img id="logo" src="./img/solare_junto 1.svg" alt=""></div>
+            <div ID="sair" class="col d-flex align-items-center">
+                <a style="text-decoration: none; color: white;" href="./login.html"><img src="./img/sair.svg">
+                </a>
+                <a style="text-decoration: none; color: white;" href="./cadastro.html"><p style="color: #00373F">SAIR</p>  
+                </a>
+            </div>
         </div>
         <div class="row d-flex justify-content-center align-items-center" id="content">
-            <div class="col-2" id="logo-form" style="background-color: #36320A; height: 60vh;">
-                <img src="./img/logozinha.svg" alt="">
-                <div class="text">
-                    <h3>Seja bem vindo!</h3>
-                    <p>Acesse sua conta agora mesmo e comece a economizar!</p>
-                    <p>não possui conta? <a href="./cadastro.html">Cadastrar</a></p>
-                        <a href="" style="color: white; font-weight: bold; font-size: 1.2em; text-decoration: none; margin: 0;">Esqueci minha senha</a>
+            <div class="aside col-2">
+                <div class="perfil d-flex flex-column align-items-center">
+                    <img src="./img/menino.png" style="min-width: 100px; width: 150px; border-radius: 50%; margin-bottom: 20px;">
+                    <h2 style="color: white;">Olá, Marcelo!</h2>
                 </div>
             </div>
-            <div class="col-4 formulario" style="background-color: #FEFAA1; height: 60vh;">
-                
-                <form action="./dashboard.html" method="get">
-                        <div class="campo">
-                            <img src="./img/ant-design_user-add-outlined.svg" alt="">
-                            <input type="text" placeholder="Username" class="form-control" id="username" name="username">
-                        </div>
-                        <div class="campo">
-                            <img src="./img/ri_lock-password-fill.svg" alt="">
-                            <input type="password" placeholder="Senha" class="form-control" id="password" name="password">
-                        </div>
-                    <button type="submit" class="btn btn-primary">Entrar</button>
-                </form>
-
+            <div class="main col-10">
+                <div class="grafico1 col-10" style="background-color: red; height: 30%">
+                    <!-- Conteúdo do gráfico 1 -->
+                </div>
+                <div class="grafico2 col-1" style="background-color: blue; height: 30%"></div>
+                <div class="grafico2 col-3" style="background-color: green; height: 30%"></div>
             </div>
-        </div>
 
+        </div>
         <div class="row d-flex justify-content-evenly" id="footer">
             <div class="col-3 d-flex flex-column justify-content-center">
                 <p>Plataforma digital desenvolvida para conectar produtores e consumidores de energia por meio de cooperativas, promovendo economia, eficiência e sustentabilidade. Nosso sistema permite o compartilhamento de créditos energéticos de forma simples, segura e acessível.</p>
@@ -58,10 +54,15 @@
                 <p style="font-size: 1.2em;">Contato<br><strong>Telefone:</strong> (00) 00000-0000<br><strong>E-mail:</strong> contato@seudominio.com</p>
             </div>
         </div>
-
-
     </div>
+
+
+
+
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <script src="./js/cad-login.js"></script>
   </body>
 </html>
